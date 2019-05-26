@@ -1,10 +1,10 @@
-#LIRI bot#
-*LIRI Bot is a Language Interpretation and Recognition Interface. LIRI Bot is a command line node app that takes in parameters and gives you back data.
+# LIRI bot
+LIRI Bot is a Language Interpretation and Recognition Interface. LIRI Bot is a command line node app that takes in parameters and gives you back data.
 
-*Screenshot of all Liri Commands:
+* Screenshot of all Liri Commands:
 ![Liri All Commands](/images/liri-all-commands.png)
 
-##NPM Dependencies##
+## NPM Dependencies
 
 *dotenv
 *axios
@@ -13,7 +13,7 @@
 *fs
 *moment
 
-##API Integration##
+## API Integration
 
 *Bands in Town
 *Spotify
