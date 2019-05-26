@@ -1,33 +1,42 @@
-LIRI bot CI status
-LIRI stands for Language Interpretation and Recognition Interface. LIRI bot is a command line node app that takes in parameters and returns data.
+#LIRI bot
+LIRI Bot is a Language Interpretation and Recognition Interface. LIRI Bot is a command line node app that takes in parameters and gives you back data.
 
 Screenshot of all Liri Commands:
 ![Liri All Commands](/images/liri-all-commands.png)
 
-NPM Dependencies
+##NPM Dependencies
 
-dotenv
-axios
-node-spotify-api
-request
-fs
-moment
+*dotenv
+*axios
+*node-spotify-api
+*request
+*fs
+*moment
 
-API Integration
+##API Integration
 
-Bands in Town
-Spotify
-OMDB
+*Bands in Town
+*Spotify
+*OMDB
 
-Usage
-The following commands run without user input:
+##How to Use Liri
+###The following commands run without user input:
 
-$ node liri.js spotify-this-song
-$ node liri.js concert-this
-$ node liri.js movie-this
-$ node liri.js do-what-it-says
+###Spotify
+*node liri.js spotify-this-song <insert song title>
 
-These commands accept user input:
+This will display information about the song to the terminal/bash window. 
+![Spotify Commands](/images/spotify.gif)
+
+
+
+
+
+*$ node liri.js concert-this
+*$ node liri.js movie-this
+*$ node liri.js do-what-it-says
+
+###These commands accept user input:
 $ node liri.js spotify-this-song 'Waiting for Tonight'
 $ node liri.js movie-this 'Notting Hill'
 $ node liri.js concert-this 'Brandi Carlile'
