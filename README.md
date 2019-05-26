@@ -1,4 +1,4 @@
-# LIRI bot
+# LIRI Bot
 LIRI Bot is a Language Interpretation and Recognition Interface. LIRI Bot is a command line node app that takes in parameters and gives you back data.
 
 * Screenshot of all Liri Commands:
@@ -6,12 +6,12 @@ LIRI Bot is a Language Interpretation and Recognition Interface. LIRI Bot is a c
 
 ## NPM Dependencies
 
-*dotenv
-*axios
-*node-spotify-api
-*request
-*fs
-*moment
+* dotenv
+* axios
+* node-spotify-api
+* request
+* fs
+* moment
 
 ## API Integration
 
@@ -20,24 +20,39 @@ LIRI Bot is a Language Interpretation and Recognition Interface. LIRI Bot is a c
 * OMDB
 
 ## How to Use Liri
-### The following commands run without user input:
 
 ### Spotify
 * `node liri.js spotify-this-song <insert song title>`
 
-* This will display information about the song to the terminal/bash window. 
+* This will display the following info about the song to the terminal/bash window:
+ * Artist Name
+ * Song Title
+ * Album Name
+ * Preview link of the song from spotify
+ * If no song is provided then the program will output information for the song "The Sign" by Ace of Base
 ![Spotify Command](/images/spotify.gif)
 
 * `node liri.js concert-this <insert artist name>`
-* This will display information about the concerts to the terminal/bash window. 
+* This will display the following info about the concerts to the terminal/bash window:
+* Name of the venue
+* Venue location
+* Date of the Event (using date format as "MM/DD/YYYY") 
 ![Concert Command](/images/concert.gif)
 
 * `node liri.js movie-this <insert movie name>`
-* This will display information about the movie to the terminal/bash window. 
+* This will display the following info about the movie to the terminal/bash window:
+* Title of the movie.
+* Year the movie came out.
+* IMDB Rating of the movie.
+* Rotten Tomatoes Rating of the movie.
+* Country where the movie was produced.
+* Language of the movie.
+* Plot of the movie.
+* Actors in the movie.
 ![Movie Command](/images/movie.gif)
 
 * `node liri.js do-what-it-says`
-* This will display information set on `random.txt` file to the terminal/bash window. 
+* This will display information set on `random.txt` file to the terminal/bash window:
 ![Do What It Says Command](/images/dowhat.gif)
 
 ### These commands accept user input - below are the info I used for my HW submission:
